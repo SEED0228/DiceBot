@@ -1,7 +1,6 @@
 import discord
 import random
 from os import getenv
-import traceback
 
 client = discord.Client()
 
