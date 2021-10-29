@@ -1,36 +1,23 @@
-# discordpy-startup
+# DiceBot
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+## このボットについて
 
-- Herokuでdiscord.pyを始めるテンプレートです。
-- Use Template からご利用ください。
-- 使い方はこちら： [Discord Bot 最速チュートリアル【Python&Heroku&GitHub】 - Qiita](https://qiita.com/1ntegrale9/items/aa4b373e8895273875a8)
+このボットを導入することでdiscordチャットにコマンドを入力することで乱数を生成することができます。
 
-## 各種ファイル情報
+## コマンド一覧
 
-### discordbot.py
-PythonによるDiscordBotのアプリケーションファイルです。
+|コマンド名  |内容  |
+|---|---|
+|[/dice](#dice)  |1~6の間でランダムに値が出力されます  |
+|[/gacha](#gacha)  |数列のうち1つを返します  |
 
-### requirements.txt
-使用しているPythonのライブラリ情報の設定ファイルです。
+# dice
 
-### Procfile
-Herokuでのプロセス実行コマンドの設定ファイルです。
+## /dice \<num\>
+1~numの間でランダムに値が出力されます
 
-### runtime.txt
-Herokuでの実行環境の設定ファイルです。
+## /dice \<num1\> \<num2\>
+num1~num2 or num2~num1の間でランダムに値が出力されます
 
-### app.json
-Herokuデプロイボタンの設定ファイルです。
-
-### .github/workflows/flake8.yaml
-GitHub Actions による自動構文チェックの設定ファイルです。
-
-### .gitignore
-Git管理が不要なファイル/ディレクトリの設定ファイルです。
-
-### LICENSE
-このリポジトリのコードの権利情報です。MITライセンスの範囲でご自由にご利用ください。
-
-### README.md
-このドキュメントです。
+## /gacha \<文字列1\> \<文字列2\> ... \<文字列n\>
+文字列1 ~文字列nのどれか1つが出力されます

@@ -1,6 +1,6 @@
 {
-  "name": "discordpy-startup",
-  "description": "Herokuでdiscord.pyを始めるテンプレート",
-  "repository": "https://github.com/DiscordBotPortalJP/discordpy-startup",
+  "name": "DiceBot",
+  "description": "このボットは乱数生成などを可能にします",
+  "repository": "https://github.com/SEED0228/DiceBot",
   "keywords": ["python", "discord", "bot"]
 }
