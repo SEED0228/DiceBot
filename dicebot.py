@@ -44,3 +44,5 @@ async def on_message(ctx):
     text = exec_command(ctx)
     if text:
         await ctx.channel.send(text)
+
+client.run(getenv('DISCORD_BOT_TOKEN'))
