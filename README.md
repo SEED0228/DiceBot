@@ -21,3 +21,15 @@ num1\~num2 or num2\~num1の間でランダムに値が出力されます
 
 ## /gacha \<文字列1\> \<文字列2\> ... \<文字列n\>
 文字列1 ~文字列nのどれか1つが出力されます
+
+## 実行方法
+
+.envに[DISCORD_BOT_TOKEN](https://discordpy.readthedocs.io/ja/latest/discord.html)を記述する。
+
+```
+pipenv install
+```
+
+```
+pipenv run python3 dicebot.py
+```
